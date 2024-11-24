@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-50 pt-100">
+  <section id="about" class="pb-50 pt-100">
     <div class="container">
       <div class="row">
         <!-- About Content -->

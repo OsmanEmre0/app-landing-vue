@@ -6,7 +6,9 @@
     </div>
 
     <AboutComponents />
-
+    <div class="feature-wrapper">
+     <AppFeatures />
+    </div>
   </div>
 </template>
 
@@ -15,7 +17,7 @@
 import GlobalHeader from '@/components/global/GlobalHeader.vue'
 import MainComponents from '@/components/MainComponents.vue'
 import AboutComponents from '@/components/AboutComponents.vue'
-
+import AppFeatures from '@/components/AppFeatures.vue'
 
 export default {
   name: 'HomeView',
@@ -23,7 +25,7 @@ export default {
     GlobalHeader,
     MainComponents,
     AboutComponents,
-
+    AppFeatures
   }
 }
 </script>
@@ -32,6 +34,14 @@ export default {
 <style scoped>
 .main-wrapper {
   background-image: url('@/assets/images/Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.feature-wrapper {
+  background-image: url('@/assets/images/features-background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

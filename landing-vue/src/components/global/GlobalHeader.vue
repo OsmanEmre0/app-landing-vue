@@ -17,8 +17,8 @@
         <nav class="navbar">
           <div class="navbar-left">
             <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Features</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
           </div>
           <div class="navbar-center">
             <img :src="require('@/assets/images/logo.png')" alt="Logo">
