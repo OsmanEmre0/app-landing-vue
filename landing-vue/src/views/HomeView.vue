@@ -12,6 +12,9 @@
     </div>
 
     <DownloadComponent />
+    <AppPerfectlyComponents />
+    <OurTeamComponents />
+
   </div>
 </template>
 
@@ -22,6 +25,8 @@ import MainComponents from '@/components/MainComponents.vue'
 import AboutComponents from '@/components/AboutComponents.vue'
 import AppFeatures from '@/components/AppFeatures.vue'
 import DownloadComponent from '@/components/DownloadComponent.vue'
+import AppPerfectlyComponents from '@/components/AppPerfectlyComponents.vue'
+import OurTeamComponents from '@/components/OurTeamComponents.vue'
 
 export default {
   name: 'HomeView',
@@ -30,7 +35,9 @@ export default {
     MainComponents,
     AboutComponents,
     AppFeatures,
-    DownloadComponent
+    DownloadComponent,
+    AppPerfectlyComponents,
+    OurTeamComponents
   }
 }
 </script>
