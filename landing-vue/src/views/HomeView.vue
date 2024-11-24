@@ -14,6 +14,7 @@
     <DownloadComponent />
     <AppPerfectlyComponents />
     <OurTeamComponents />
+    <OurRecentBlog />
 
   </div>
 </template>
@@ -27,6 +28,7 @@ import AppFeatures from '@/components/AppFeatures.vue'
 import DownloadComponent from '@/components/DownloadComponent.vue'
 import AppPerfectlyComponents from '@/components/AppPerfectlyComponents.vue'
 import OurTeamComponents from '@/components/OurTeamComponents.vue'
+import OurRecentBlog from '@/components/OurRecentBlog.vue'
 
 export default {
   name: 'HomeView',
@@ -37,7 +39,8 @@ export default {
     AppFeatures,
     DownloadComponent,
     AppPerfectlyComponents,
-    OurTeamComponents
+    OurTeamComponents,
+    OurRecentBlog
   }
 }
 </script>

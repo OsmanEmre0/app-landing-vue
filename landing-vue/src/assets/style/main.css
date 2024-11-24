@@ -287,11 +287,12 @@ body {
  .left-main h1 {
      padding: 0 0 18px 0;
      color:  #5956E9;
-     font-size: 48px;
+     font-size: 45px;
      font-style: normal;
      font-weight: 700;
      line-height: 130%;
      text-transform: uppercase;
+     max-width: 500px;
  }
 
  .left-main p {
@@ -902,6 +903,100 @@ body {
 }
 
 
+/*--------------------------------------------------------------*/
+/* OurHappyCustomers */
+/*--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------*/
+/* OurRecentBlog */
+/*--------------------------------------------------------------*/
+
+
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.10);
+    padding: 10px 0 0 0;
+}
+
+.custom-card .card-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.custom-card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.custom-card .card-title {
+    margin: 20px 0;
+    text-align: center;
+    color:  #232233;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    height: auto;
+}
+
+
+.custom-card .card-text {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6C6C72;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.custom-card .read-more {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #5956E9;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+
+.our-blog-header h2 {
+    margin-bottom: 10px;
+    color: #232233;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.our-blog-description p {
+    color: #6C6C72;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 700px;
+}
+
+.our-blog-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

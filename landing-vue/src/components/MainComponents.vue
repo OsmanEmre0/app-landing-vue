@@ -6,7 +6,7 @@
         <div class="col-md-6 left-main d-flex justify-content-center align-items-center">
           <div class="border-box">
             <div class="content-box">
-              <h1>A GREAT APP<br> MAKES YOUR LIFE BETTER</h1>
+              <h1>A GREAT APP MAKES<br> YOUR LIFE BETTER</h1>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
               </p>

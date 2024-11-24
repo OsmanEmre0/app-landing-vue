@@ -25,7 +25,7 @@
           </div>
           <div class="navbar-right">
             <a href="#">Screenshot</a>
-            <a href="#">Blog</a>
+            <a href="#Blog">Blog</a>
             <a href="#" class="download-btn">Download</a>
           </div>
         </nav>
