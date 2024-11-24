@@ -12,10 +12,10 @@
               </p>
               <h5>DOWNLOAD APP NOW</h5>
               <div class="download-buttons">
-                <a href="#" class="google-play">
+                <a href="#" class="main-google-play">
                   <img src="@/assets/images/Google-store.png" alt="Download on Google Play">
                 </a>
-                <a href="#" class="app-store">
+                <a href="#" class="main-app-store">
                   <img src="@/assets/images/App-store.png" alt="Download on App Store">
                 </a>
               </div>

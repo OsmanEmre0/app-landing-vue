@@ -287,7 +287,7 @@ body {
  .left-main h1 {
      padding: 0 0 18px 0;
      color:  #5956E9;
-     font-size: 48.83px;
+     font-size: 48px;
      font-style: normal;
      font-weight: 700;
      line-height: 130%;
@@ -684,6 +684,82 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+/*--------------------------------------------------------------*/
+/* DownloadComponents */
+/*--------------------------------------------------------------*/
+
+
+.download-app h1 {
+    margin-bottom: 15px;
+    color: #232233;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.download-app p {
+    margin-bottom: 20px;
+    color: #6C6C72;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    height: auto;
+}
+
+.store-buttons {
+    padding: 10px 0 0 0;
+}
+
+.store-buttons img {
+    height: auto;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-section .stat {
+    flex: 0 0 calc(33.333% - 20px);
+    height: auto;
+    padding: 20px 0 0 0;
+    border-radius: 10px;
+    background: #5851EA;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+.stats-section .stat h2 {
+    margin: 10px 0;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.stats-section .stat p {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.stats-section .stat .icon {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
 
 
 

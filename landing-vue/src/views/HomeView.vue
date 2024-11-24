@@ -6,18 +6,22 @@
     </div>
 
     <AboutComponents />
+
     <div class="feature-wrapper">
      <AppFeatures />
     </div>
+
+    <DownloadComponent />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+
 import GlobalHeader from '@/components/global/GlobalHeader.vue'
 import MainComponents from '@/components/MainComponents.vue'
 import AboutComponents from '@/components/AboutComponents.vue'
 import AppFeatures from '@/components/AppFeatures.vue'
+import DownloadComponent from '@/components/DownloadComponent.vue'
 
 export default {
   name: 'HomeView',
@@ -25,7 +29,8 @@ export default {
     GlobalHeader,
     MainComponents,
     AboutComponents,
-    AppFeatures
+    AppFeatures,
+    DownloadComponent
   }
 }
 </script>
