@@ -2,7 +2,7 @@
   <section class="pt-50 pb-50">
     <div class="container">
       <div class="row">
-        <!-- Left Main -->
+
         <div class="col-md-6 left-main d-flex justify-content-center align-items-center">
           <div class="border-box">
             <div class="content-box">
@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <!-- Right Main -->
+
         <div class="col-md-6 right-main">
           <img src="@/assets/images/phone.png" alt="Main Image">
         </div>

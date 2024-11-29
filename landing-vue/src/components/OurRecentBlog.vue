@@ -2,7 +2,7 @@
 
   <section id="Blog" class="pt-50 pb-50">
     <div class="container">
-      <!-- Başlık ve açıklama -->
+
       <div class="col-md-12 our-blog-header text-center mb-5">
         <h2 >Our Recent Blog</h2>
         <div class="our-blog-description">
@@ -10,13 +10,13 @@
         </div>
       </div>
 
-      <!-- Card Yapısı -->
+
       <div class="col-md-12">
         <div class="row">
-          <!-- 1. Card -->
+
           <div class="col-md-4">
             <div class="custom-card">
-              <!-- Üstteki resim -->
+
               <div class="card-image">
                 <img src="@/assets/images/our-blog-image1.png" alt="Card Image" class="img-fluid" />
               </div>
@@ -26,7 +26,7 @@
             </div>
           </div>
 
-          <!-- 2. Card -->
+
           <div class="col-md-4">
             <div class="custom-card">
               <div class="card-image">
@@ -38,7 +38,7 @@
             </div>
           </div>
 
-          <!-- 3. Card -->
+
           <div class="col-md-4">
             <div class="custom-card">
               <div class="card-image">

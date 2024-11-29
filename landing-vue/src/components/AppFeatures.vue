@@ -1,7 +1,7 @@
 <template>
   <section id="features" class="pt-100 pb-50 custom-section">
     <div class="container">
-      <!-- İlk col-md-12 -->
+
       <div class="row">
         <div class="col-md-12 main-content text-center">
           <h2>App features</h2>
@@ -11,7 +11,7 @@
           </div>
       </div>
 
-      <!-- İkinci col-md-12 -->
+
       <div class="row">
         <div class="col-md-12 promotion-title text-center">
           <i class="fa-solid fa-comment-dots header-icon"></i>
@@ -22,10 +22,10 @@
           </div>
       </div>
 
-      <!-- Üçüncü col-md-12 -->
 
-        <div class="pt-20 pb-20 col-md-12">
-          <!-- İlk col-md-4 -->
+
+        <div class="pt-30 pb-30 col-md-12">
+
           <div class="row">
             <div class="left-right-features col-md-3">
               <div class="top-left-content pt-70 text-right">
@@ -40,12 +40,12 @@
               </div>
             </div>
 
-            <!-- İkinci col-md-4 -->
+
             <div class="center-features col-md-6 d-flex ">
               <img src="@/assets/images/Features-phone.png" alt="Image" class="custom-image">
             </div>
 
-            <!-- Üçüncü col-md-4 -->
+
             <div class="left-right-features col-md-3">
               <div class="top-right-content pt-70 text-left">
                 <i class="fa-solid fa-mobile-screen-button right-icon"></i>
@@ -62,7 +62,7 @@
         </div>
 
 
-      <!-- Dördüncü col-md-12 -->
+
       <div class="row pt-30">
         <div class="col-md-12  bottom-promotion-title text-center">
           <i class="fa-solid fa-headset bottom-icon"></i>

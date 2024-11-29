@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+
     <div class="main-wrapper">
       <GlobalHeader />
       <MainComponents />
@@ -14,7 +15,15 @@
     <DownloadComponent />
     <AppPerfectlyComponents />
     <OurTeamComponents />
+    <div class="customers-wrapper">
+      <OurHappyCustomers />
+    </div>
+
+
     <OurRecentBlog />
+
+    <GlobalFooter />
+
 
   </div>
 </template>
@@ -29,6 +38,8 @@ import DownloadComponent from '@/components/DownloadComponent.vue'
 import AppPerfectlyComponents from '@/components/AppPerfectlyComponents.vue'
 import OurTeamComponents from '@/components/OurTeamComponents.vue'
 import OurRecentBlog from '@/components/OurRecentBlog.vue'
+import OurHappyCustomers from '@/components/OurHappyCustomers.vue'
+import GlobalFooter from '@/components/global/GlobalFooter.vue'
 
 export default {
   name: 'HomeView',
@@ -40,7 +51,9 @@ export default {
     DownloadComponent,
     AppPerfectlyComponents,
     OurTeamComponents,
-    OurRecentBlog
+    OurRecentBlog,
+    OurHappyCustomers,
+    GlobalFooter
   }
 }
 </script>
@@ -57,6 +70,14 @@ export default {
 
 .feature-wrapper {
   background-image: url('@/assets/images/features-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.customers-wrapper {
+  background-image: url('@/assets/images/OurHappyCustomers-Background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

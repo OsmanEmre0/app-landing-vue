@@ -1,9 +1,9 @@
 <template>
 
-  <section class="pb-50 pt-50">
+  <section id="team" class="pb-50 pt-50">
     <div class="container">
       <div class="row">
-        <!-- Başlık ve açıklama -->
+
         <div class="col-md-12 OurTeam-Title text-center mb-5">
           <h2>Our reative team</h2>
           <div class="OurTeam-Description">
@@ -13,23 +13,23 @@
       </div>
 
 
-        <!-- Card Yapısı -->
+
         <div class="col-md-12">
           <div class="row">
-            <!-- 1. Card -->
+
             <div class="col-md-4">
               <div class="card">
                 <div class="card-body text-center">
-                  <!-- Yuvarlak Resim -->
+
                   <div class="image-container mb-3">
                     <img src="@/assets/images/OurTeamİmage1.png" alt="Image" class="rounded-circle" />
                   </div>
-                  <!-- Card Başlık ve Alt Başlık -->
+
                   <h1 class="card-title">Carla Press</h1>
                   <h5 class="card-subtitle mb-2 text-muted">App Developer</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
 
-                  <!-- Sosyal Medya Iconları -->
+
                   <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <hr />
@@ -43,7 +43,7 @@
               </div>
             </div>
 
-            <!-- 2. Card -->
+
             <div class="col-md-4">
               <div class="card">
                 <div class="card-body text-center">
@@ -66,7 +66,7 @@
               </div>
             </div>
 
-            <!-- 3. Card -->
+
             <div class="col-md-4">
               <div class="card">
                 <div class="card-body text-center">

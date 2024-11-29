@@ -1,16 +1,25 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import './assets/style/main.css';
-// Bootstrap CSS
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+
+
+// Global Styles
+import '@/assets/style/main.css';
+
+
+// Global Scripts
+
+
+// Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-// Bootstrap JS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-//  FontAwesome
+
+
+// Font Awesome
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+// Swiper
+import "swiper/swiper-bundle.css";
 
-
-
-
-createApp(App).use(router).mount('#app')
+// Create App
+createApp(App).use(router).mount('#app');

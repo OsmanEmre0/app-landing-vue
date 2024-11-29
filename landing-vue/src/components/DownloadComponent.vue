@@ -3,7 +3,7 @@
   <section class="pt-50 pb-50 download-app ">
     <div class="container">
       <div class="row align-items-center ">
-        <!-- Sol Kısım -->
+
         <div class="col-md-6 text-section">
           <div class="download-description">
             <h1>DOWNLOAD APP NOW</h1>
@@ -21,7 +21,7 @@
             </div>
           </div>
 
-          <!-- İstatistik Kısmı -->
+
           <div class="row text-center mt-5 stats-section ">
             <div class="col-md-4 stat">
               <div class="icon">
@@ -48,7 +48,7 @@
 
         </div>
 
-        <!-- Sağ Kısım -->
+
         <div class="col-md-6 image-section text-center">
           <img src="@/assets/images/Download-App-phone.png" alt="Phone" class="img-fluid">
         </div>

@@ -2,7 +2,7 @@
   <section id="about" class="pb-50 pt-100">
     <div class="container">
       <div class="row">
-        <!-- About Content -->
+
         <div class="col-md-12 about-content">
           <h1>ABOUT OUR APP</h1>
           <div class="Explanation-about">
@@ -10,12 +10,12 @@
           </div>
         </div>
 
-        <!-- About Left -->
+
         <div class="col-md-6 about-left">
           <img src="@/assets/images/About-phone.png" alt="About App Image">
         </div>
 
-        <!-- About Right -->
+
         <div class="col-md-6 about-right">
           <div class="feature-box">
             <div class="icon-and-title">

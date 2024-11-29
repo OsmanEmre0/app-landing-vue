@@ -4,7 +4,7 @@
       <div class="container">
         <div class="top-bar">
           <div class="contact-info">
-            <a href=""><i class="fas fa-envelope"></i> <span>example@mail.com</span></a>
+            <a href="mailto:osariahnetoglu@gmail.com"><i class="fas fa-envelope"></i> <span>osariahnetoglu@gmail.com</span></a>
             <a href=""><i class="fas fa-phone-alt"></i> <span>+90 555 123 4567</span></a>
           </div>
           <div class="social-media-icons">
@@ -24,7 +24,7 @@
             <img :src="require('@/assets/images/logo.png')" alt="Logo">
           </div>
           <div class="navbar-right">
-            <a href="#">Screenshot</a>
+            <a href="#team">Team</a>
             <a href="#Blog">Blog</a>
             <a href="#" class="download-btn">Download</a>
           </div>
