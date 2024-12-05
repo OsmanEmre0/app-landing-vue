@@ -1,6 +1,6 @@
 <template>
 
-  <section id="team" class="pb-50 pt-50">
+  <section id="team" class="pb-100">
     <div class="container">
       <div class="row">
 

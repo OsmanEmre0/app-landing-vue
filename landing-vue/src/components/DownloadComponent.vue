@@ -1,6 +1,6 @@
 <template>
 
-  <section class="pt-50 pb-50 download-app ">
+  <section class="pt-50 pb-100 download-app ">
     <div class="container">
       <div class="row align-items-center ">
 

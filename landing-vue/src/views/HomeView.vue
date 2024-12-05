@@ -13,7 +13,19 @@
     </div>
 
     <DownloadComponent />
-    <AppPerfectlyComponents />
+    <div class="app-perfectly-wrapper">
+      <AppPerfectlyComponents />
+    </div>
+    <div class="video-wrapper">
+      <video controls poster="@/assets/images/video%20background.png">
+        <source src="" type="video/mp4" />
+        Tarayıcınız video etiketini desteklemiyor.
+      </video>
+    </div>
+
+
+
+
     <OurTeamComponents />
     <div class="customers-wrapper">
       <OurHappyCustomers />
@@ -76,6 +88,14 @@ export default {
   padding: 0;
 }
 
+.app-perfectly-wrapper {
+  background-image: url('@/assets/images/AppPerfectly-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
 .customers-wrapper {
   background-image: url('@/assets/images/OurHappyCustomers-Background.png');
   background-size: cover;
@@ -83,5 +103,7 @@ export default {
   background-repeat: no-repeat;
   padding: 0;
 }
+
+
 
 </style>
