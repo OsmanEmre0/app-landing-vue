@@ -12,6 +12,8 @@
      <AppFeatures />
     </div>
 
+
+
     <DownloadComponent />
     <div class="app-perfectly-wrapper">
       <AppPerfectlyComponents />
@@ -53,6 +55,7 @@ import OurRecentBlog from '@/components/OurRecentBlog.vue'
 import OurHappyCustomers from '@/components/OurHappyCustomers.vue'
 import GlobalFooter from '@/components/global/GlobalFooter.vue'
 
+
 export default {
   name: 'HomeView',
   components: {
@@ -65,7 +68,8 @@ export default {
     OurTeamComponents,
     OurRecentBlog,
     OurHappyCustomers,
-    GlobalFooter
+    GlobalFooter,
+
   }
 }
 </script>

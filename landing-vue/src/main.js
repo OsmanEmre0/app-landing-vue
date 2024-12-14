@@ -21,5 +21,9 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 // Swiper
 import "swiper/swiper-bundle.css";
 
+
+// Splide
+import '@splidejs/splide/dist/css/splide.min.css';
+
 // Create App
 createApp(App).use(router).mount('#app');

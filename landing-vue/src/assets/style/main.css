@@ -391,7 +391,7 @@ body {
     gap: 10px;
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.10);
@@ -410,7 +410,7 @@ body {
 }
 
 .feature-box h5 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
     color: #333;
@@ -688,11 +688,6 @@ body {
 
 
 /*--------------------------------------------------------------*/
-/* CheckoutOurApp */
-/*--------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------*/
 /* DownloadComponents */
 /*--------------------------------------------------------------*/
 
@@ -957,7 +952,79 @@ body {
 /* OurHappyCustomers */
 /*--------------------------------------------------------------*/
 
+.content-heading {
+    margin-bottom: 30px;
+}
 
+.content-heading h1 {
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content-description p {
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.swiperCustomers {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.custom-slider {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.slide-content {
+    padding: 20px;
+}
+
+.slide-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.slide-content h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #232233;
+}
+
+.slide-content h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6c6c72;
+    margin: 5px 0 10px;
+}
+
+.slide-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c6c72;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.custom-pagination {
+    margin-top: 60px;
+    text-align: center;
+    cursor: pointer;
+}
 
 
 
@@ -973,7 +1040,6 @@ body {
     margin-bottom: 30px;
     background-color: #fff;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.10);
-    padding: 10px 0 0 0;
 }
 
 .custom-card .card-image {

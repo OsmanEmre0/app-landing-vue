@@ -10,7 +10,7 @@
           <div class="social-media-icons">
             <a href="https://www.instagram.com/osmansariahmetoglu/"><i class="fab fa-instagram"></i></a>
             <a href="https://github.com/OsmanEmre0"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/osman-emre-sarıahmetoğlu/"> <i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/osman-emre-sarıahmetoğlu/"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
 
