@@ -50,7 +50,7 @@
 
 
         <div class="col-md-6 image-section text-center">
-          <img src="@/assets/images/Download-App-phone.png" alt="Phone" class="img-fluid">
+          <img src="@/assets/images/Download-App-phone.png" alt="Phone" class="img-fluid download-img">
         </div>
       </div>
     </div>

@@ -12,9 +12,8 @@
      <AppFeatures />
     </div>
 
-
-
     <DownloadComponent />
+
     <div class="app-perfectly-wrapper">
       <AppPerfectlyComponents />
     </div>
@@ -76,12 +75,17 @@ export default {
 
 
 <style scoped>
+.main {
+  width: 100%;
+  max-width: 100vw;
+}
+
 .main-wrapper {
   background-image: url('@/assets/images/Background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0;
+  width: 100%;
 }
 
 .feature-wrapper {
@@ -89,7 +93,7 @@ export default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0;
+  width: 100%;
 }
 
 .app-perfectly-wrapper {
@@ -97,7 +101,7 @@ export default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0;
+  width: 100%;
 }
 
 .customers-wrapper {
@@ -105,9 +109,10 @@ export default {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0;
+  width: 100%;
 }
 
-
-
+.video-wrapper video {
+  width: 100%;
+}
 </style>

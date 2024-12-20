@@ -24,10 +24,20 @@
               :spaceBetween="30"
               :coverflow-effect="{ rotate: 0, stretch: 0, depth: 150, modifier: 3, slideShadows: false }"
               :pagination="{
-        clickable: true,
-        el: '.custom-pagination',
-        bulletClass: 'swiper-pagination-bullet',
-        bulletActiveClass: 'swiper-pagination-bullet-active'
+      clickable: true,
+      el: '.custom-pagination',
+      bulletClass: 'swiper-pagination-bullet',
+      bulletActiveClass: 'swiper-pagination-bullet-active'
+    }"
+              :breakpoints="{
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      }
     }"
           >
             <SwiperSlide class="custom-slider" v-for="(slide, index) in slides" :key="index">
@@ -42,6 +52,7 @@
             <div class="custom-pagination"></div>
           </Swiper>
         </div>
+
 
       </div>
     </div>
