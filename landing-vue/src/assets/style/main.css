@@ -2259,7 +2259,7 @@ footer input {
     .contact-item-left a,
     .contact-item-right a {
         margin-left: 8px;
-        font-size: 11px;
+        font-size: 9px;
     }
 
     .vertical-divider {
@@ -2298,7 +2298,6 @@ footer input {
 
     .footer-social-icons {
         justify-content: center;
-        gap: 15px;
     }
 
     .footer-bottom p {
@@ -2327,6 +2326,10 @@ footer input {
     .download-buttons img {
         width: 100%;
         height: auto;
+    }
+
+    .footer input {
+        margin-left: 50px;
     }
 }
 
