@@ -35,12 +35,28 @@
 </template>
 
 <script>
+
+import { gsap } from "gsap";
+
 export default {
-  name: 'MainComponents',
-  props: {
-    msg: String
-  }
-}
+  name: "MainComponents",
+  mounted() {
+    gsap.from(".left-main", {
+      x: -200,
+      opacity: 0,
+      duration: 1.5,
+      ease: "power3.out",
+    });
+
+    gsap.from(".right-main", {
+      x: 200,
+      opacity: 0,
+      duration: 1.5,
+      ease: "power3.out",
+    });
+  },
+};
+
 </script>
 
 

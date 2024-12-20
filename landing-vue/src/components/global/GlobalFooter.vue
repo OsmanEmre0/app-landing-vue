@@ -87,13 +87,82 @@
 </template>
 
 <script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
   name: 'GlobalFooter',
   props: {
     msg: String
+  },
+  mounted() {
+    this.initScrollAnimations();
+  },
+  methods: {
+    initScrollAnimations() {
+
+      gsap.from(".contact-box", {
+        y: -100,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".contact-box",
+          start: "top 80%",
+          end: "bottom top",
+          toggleActions: "play none none none",
+        }
+      });
+
+
+      gsap.from(".footer-left", {
+        x: -200,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".footer-left",
+          start: "top 80%",
+          end: "bottom top",
+          toggleActions: "play none none none",
+        }
+      });
+
+
+      gsap.from(".footer-center", {
+        y: -200,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".footer-center",
+          start: "top 80%",
+          end: "bottom top",
+          toggleActions: "play none none none",
+        }
+      });
+
+
+      gsap.from(".footer-right", {
+        x: 200,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".footer-right",
+          start: "top 80%",
+          end: "bottom top",
+          toggleActions: "play none none none",
+        }
+      });
+    }
   }
-}
+};
 </script>
+
+
 
 
 <style scoped>

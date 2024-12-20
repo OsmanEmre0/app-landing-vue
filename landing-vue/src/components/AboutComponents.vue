@@ -62,12 +62,58 @@
 </template>
 
 <script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
-  name: 'AboutComponents',
-  props: {
-    msg: String
-  }
-}
+  name: "AboutComponents",
+  mounted() {
+
+    gsap.from(".about-content", {
+      y: -100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".about-content",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".about-left", {
+      x: -200,
+      opacity: 0,
+      duration: 1.5,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".about-left",
+        start: "top 80%",
+      },
+    });
+
+
+    const featureBoxes = document.querySelectorAll(".feature-box");
+
+    featureBoxes.forEach((box,) => {
+      gsap.from(box, {
+        x: 200,
+        opacity: 0,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: box,
+          start: "top 80%",
+          toggleActions: "play none none none",
+        },
+      });
+    });
+  },
+};
+
+
 </script>
 
 

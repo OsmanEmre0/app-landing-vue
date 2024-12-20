@@ -1650,6 +1650,7 @@ footer input {
 
     .contact-box {
         width: 80%;
+
     }
 
     .icon-circle {
@@ -2246,8 +2247,8 @@ footer input {
     .contact-box {
         width: 95%;
         height: auto;
-        margin-top: -30px;
-        padding: 10px;
+        margin-top: -46px;
+        padding: 30px;
     }
 
     .icon-circle {

@@ -58,13 +58,56 @@
 </template>
 
 <script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
   name: 'OurRecentBlog',
   props: {
     msg: String
+  },
+  mounted() {
+    this.initScrollAnimations();
+  },
+  methods: {
+    initScrollAnimations() {
+
+      gsap.from(".our-blog-header", {
+        y: -100,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".our-blog-header",
+          start: "top 80%",
+          end: "bottom top",
+          toggleActions: "play none none none",
+        }
+      });
+
+
+      gsap.utils.toArray(".custom-card").forEach((card, index) => {
+        gsap.from(card, {
+          x: -200,
+          opacity: 0,
+          duration: 1,
+          delay: index * 0.3,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: card,
+            start: "top 80%",
+            end: "bottom top",
+            toggleActions: "play none none none",
+          }
+        });
+      });
+    }
   }
-}
+};
 </script>
+
 
 
 <style scoped>

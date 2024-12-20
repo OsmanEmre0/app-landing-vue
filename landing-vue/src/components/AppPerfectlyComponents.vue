@@ -21,13 +21,42 @@
 </template>
 
 <script>
-export default {
-  name: 'AppPerfectlyComponents',
-  props: {
-    msg: String
-  }
-}
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+
+gsap.registerPlugin(ScrollTrigger);
+
+export default {
+  name: "AppPerfectlyComponents",
+  mounted() {
+
+    gsap.from(".app-perfectly-main", {
+      y: -100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".app-perfectly-main",
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+
+
+    gsap.from(".video-wrapper", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".video-wrapper",
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+  },
+};
 
 
 </script>

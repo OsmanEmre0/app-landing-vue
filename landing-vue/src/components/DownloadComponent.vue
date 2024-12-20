@@ -59,12 +59,77 @@
 </template>
 
 <script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
-  name: 'DownloadComponent',
-  props: {
-    msg: String
-  }
-}
+  name: "DownloadComponent",
+  mounted() {
+
+    gsap.from(".download-description h1", {
+      y: -100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".download-description",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".download-description p", {
+      x: -200,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".download-description",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".store-buttons a", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.2,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".download-description",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".stat", {
+      x: -200,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.2,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".stats-section",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".image-section img", {
+      x: 200,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".image-section",
+        start: "top 80%",
+      },
+    });
+  },
+};
 </script>
 
 

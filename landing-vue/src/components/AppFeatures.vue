@@ -78,12 +78,101 @@
 </template>
 
 <script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
-  name: 'AppFeatures',
-  props: {
-    msg: String
-  }
-}
+  name: "AppFeatures",
+  mounted() {
+
+    gsap.from(".main-content", {
+      y: -100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".main-content",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".promotion-title", {
+      y: -100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".promotion-title",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".top-left-content", {
+      x: -200,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".top-left-content",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".bottom-left-content", {
+      x: -200,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".bottom-left-content",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".top-right-content", {
+      x: 200,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".top-right-content",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".bottom-right-content", {
+      x: 200,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".bottom-right-content",
+        start: "top 80%",
+      },
+    });
+
+
+    gsap.from(".bottom-promotion-title", {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".bottom-promotion-title",
+        start: "top 80%",
+      },
+    });
+  },
+};
+
+
 </script>
 
 
