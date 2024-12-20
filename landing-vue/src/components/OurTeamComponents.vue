@@ -22,7 +22,7 @@
                 <div class="card-body text-center">
 
                   <div class="image-container mb-3">
-                    <img src="@/assets/images/OurTeamİmage1.png" alt="Image" class="rounded-circle" />
+                    <img :src="require('@/assets/images/OurTeamİmage1.png')" alt="Image" class="rounded-circle" />
                   </div>
 
                   <h1 class="card-title">Carla Press</h1>
@@ -48,7 +48,7 @@
               <div class="card">
                 <div class="card-body text-center">
                   <div class="image-container mb-3">
-                    <img src="@/assets/images/OurTeamİmage2.png" alt="Image" class="rounded-circle" />
+                    <img :src="require('@/assets/images/OurTeamİmage2.png')" alt="Image" class="rounded-circle" />
                   </div>
                   <h1 class="card-title">Craig Gouse</h1>
                   <h5 class="card-subtitle mb-2 text-muted">UI/UX Designer</h5>
@@ -71,7 +71,7 @@
               <div class="card">
                 <div class="card-body text-center">
                   <div class="image-container mb-3">
-                    <img src="@/assets/images/OurTeamİmage3.png" alt="Image" class="rounded-circle" />
+                    <img :src="require('@/assets/images/OurTeamİmage3.png')" alt="Image" class="rounded-circle" />
                   </div>
                   <h1 class="card-title">Jocelyn Septimus</h1>
                   <h5 class="card-subtitle mb-2 text-muted">Website developer</h5>
