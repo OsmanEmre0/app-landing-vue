@@ -9,7 +9,7 @@
     <AboutComponents />
 
     <div class="feature-wrapper">
-     <AppFeatures />
+      <AppFeatures />
     </div>
 
     <DownloadComponent />
@@ -76,43 +76,46 @@ export default {
 
 <style scoped>
 .main {
-  width: 100%;
+  width: 100vw;
   max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.main-wrapper,
+.feature-wrapper,
+.app-perfectly-wrapper,
+.customers-wrapper {
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-wrapper {
   background-image: url('@/assets/images/Background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
 }
 
 .feature-wrapper {
   background-image: url('@/assets/images/features-background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
 }
 
 .app-perfectly-wrapper {
   background-image: url('@/assets/images/AppPerfectly-background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
 }
 
 .customers-wrapper {
   background-image: url('@/assets/images/OurHappyCustomers-Background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
 }
 
-.video-wrapper video {
-  width: 100%;
-}
+
 </style>
